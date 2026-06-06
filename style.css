@@ -54,6 +54,8 @@ nav{
 .product-div-img{
     width: 100%;
     border-radius: 10px;
+    height: 200px;
+    object-fit: contain;
 }
 .product-div h2{
     font-size: 14px;
