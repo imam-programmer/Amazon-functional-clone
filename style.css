@@ -44,3 +44,23 @@ nav{
     background-color: orange;
     cursor: pointer;
 }
+.product-div{
+    width: 300px;
+    height: 300px;
+    background-color: #fefefe;
+    border-radius: 20px;
+    padding: 10px 10px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0,.3);
+}
+.product-div-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product-div h2{
+    font-size: 16px;
+}
+.product-div-container{
+    padding: 0 20px;
+    margin-top: 30px;
+    
+}
