@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 9%;
+}
+header{
+     background-color: black;
+     padding: 10px 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+   
+}
+ .nav-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ nav p{
+    font-size: 12px;
+ }
+ nav h3{
+    font-size: 14px;
+ }
+.input{
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.input input{
+    width: 100%;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+}
+.fa-magnifying-glass{
+    padding: 8px 10px;
+    background-color: orange;
+    cursor: pointer;
+}
