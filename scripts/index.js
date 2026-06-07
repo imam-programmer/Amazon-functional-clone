@@ -1,9 +1,7 @@
-let itemsContainer=document.querySelector(".items-container")
-console.log(itemsContainer)
-// itemsContainer.innerHTML=
-   let innerHTML="";
-   items.map((e)=>{
-return innerHTML+=`<div class="product-box">
+let itemsContainer = document.querySelector(".items-container");
+let innerHTML = "";
+items.map((e) => {
+  return innerHTML += `<div class="product-box">
                 <img class="item-image" src="${e.image}" alt="img1">
                 <div class="rating">
                     ${e.rating.stars} ⭐ | (${e.rating.count})
@@ -15,7 +13,23 @@ return innerHTML+=`<div class="product-box">
                     <span class="original-price">TK ${e.original_price}</span>
                     <span class="discount">(${e.discount_percentage}% off)</span>
                 </div>
-                <button class="btn-add-bag">Add to Bag</button> 
-   </div>`
-   })
-   itemsContainer.innerHTML=innerHTML
+                <button class="btn-add-bag" onclick="addProduct(${e.id})">Add to Bag</button> 
+   </div>`;
+});
+itemsContainer.innerHTML = innerHTML;
+let productCartadd = [];
+let secetedItem = document.querySelector(".bag-item-count");
+
+function addProduct(e) {
+  productCartadd.push(e);
+  localStorage.setItem("selected",JSON.stringify(productCartadd))
+  if (productCartadd.length > 0) {
+    secetedItem.innerHTML = productCartadd.length;
+   
+    secetedItem.style.visibility = "visible";
+  }
+  console.log(productCartadd);
+}
+secetedItem.style.visibility = "hidden";
+
+
