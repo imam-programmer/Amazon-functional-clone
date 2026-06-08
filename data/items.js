@@ -79,7 +79,7 @@ const items = [
         image: 'images/6.jpg',
         company: 'Nike',
         item_name: 'Men ReactX Running Shoes',
-        original_price: 14995,
+        original_price: 20995,
         current_price: 14995,
         discount_percentage: 0,
         return_period: 14,
