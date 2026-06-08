@@ -234,65 +234,6 @@ header {
 }
 
 /* =============my css================== */
-.items-container{
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-   display: grid;
-   grid-template-columns: repeat(4,250px);
-   justify-content: center;
-   gap: 20px;
-}
-.item-container{
-width: 200px;
-}
-.item-image{
-    width: 100%;
-}
-.company-name{
-font-size: 18px;
-font-weight: 600;
-margin-top: 10px;
-}
-.item-name{
-font-size: 14px;
-font-weight: 600;
-margin-bottom: 10px;
-}
-.rating{
-
-}
-.price{
-font-size: 20px;
-font-weight: 600;
-}
-.current-price{
-
-}
-.original-price{
-font-size: 14px;
-font-weight: 400;
-text-decoration: line-through;
-}
-.discount{
-font-size: 14px;
-font-weight: 400;
-
-}
-.btn-add-bag{
-background-color: rgba(0, 128, 0, 0.705);
-width: 100%;
-margin-top: 5px;
-border: none;
-padding: 5px ;
-border-radius: 10px;
-transition: 0.3s;
-cursor: pointer;
-}
-.btn-add-bag:active{
-    transform: scale(0.8);
-}
 .bag-item-count{
      background-color: #f16565;
     white-space: nowrap;
@@ -312,4 +253,47 @@ cursor: pointer;
 .action_container{
     text-decoration: none;
   
+}
+
+.product{
+    width: 200px;
+}
+.product img{
+    width: 100%;
+}
+.star{
+    color: orange;
+}
+h2{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+
+}
+h5{
+    font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 5px;
+     text-transform: capitalize;
+}
+h1{
+    font-size: 22px;
+    margin-top: 5px;
+}
+.original-price{
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.discount{
+    font-size: 16px;
+}
+button{
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.692);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 0;
+    margin-top: 5px;
+    font-size: 18px;
 }
