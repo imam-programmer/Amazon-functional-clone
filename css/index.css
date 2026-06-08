@@ -234,8 +234,62 @@ header {
 }
 
 /* =============my css================== */
+.items-container{
+width: 80%;
+margin-left: 10%;
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap: 20px;
+}
+.item-container{
+width: 200px;
+}
+.item-image{
+width: 100%;
+}
+/* .rating{
+
+} */
+.orange{
+color: orange;
+}
+.company-name{
+font-size: 18px;
+font-weight: 600;
+}
+.item-name{
+font-weight: 600;
+}
+.price{
+font-size: 18px;
+}
+
+.original-price{
+font-size: 14px;
+text-decoration: line-through;
+}
+.discount{
+font-size: 14px;
+color: orange;
+}
+.btn-add-bag{
+width: 100%;
+padding: 5px 0;
+border-radius: 20px;
+border: none;
+background: green;
+font-size: 18px;
+margin-top: 5px;
+cursor: pointer;
+}
+.btn-add-bag:active{
+    transform: scale(0.8);
+}
 .bag-item-count{
-     background-color: #f16565;
+      background-color: #f16565;
     white-space: nowrap;
     text-align: center;
     line-height: 18px;
@@ -250,64 +304,6 @@ header {
     font-weight: 700;
     cursor: pointer;
 }
-.action_container{
+.action_container {
     text-decoration: none;
-  
-}
-
-.product{
-    width: 200px;
-}
-.product img{
-    width: 100%;
-}
-.star{
-    color: orange;
-}
-h2{
-    font-size: 18px;
-    text-transform: capitalize;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 5px;
-
-}
-h5{
-    font-size: 16px;
-     font-family: Arial, Helvetica, sans-serif;
-     margin-top: 5px;
-     text-transform: capitalize;
-}
-h1{
-    font-size: 22px;
-    margin-top: 5px;
-}
-.original-price{
-    font-size: 14px;
-    text-decoration: line-through;
-    font-weight: 400;
-}
-.discount{
-    font-size: 16px;
-    font-weight: 400;
-}
-button{
-    width: 100%;
-    background-color: rgba(0, 128, 0, 0.692);
-    border: none;
-    border-radius: 20px;
-    padding: 5px 0;
-    margin-top: 5px;
-    font-size: 18px;
-    cursor: pointer;
-}
-button:active{
-    transform: scale(0.8);
-}
-main{
-    display: grid;
-    grid-template-columns: repeat(4,250px);
-    justify-content: center;
-    row-gap: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
